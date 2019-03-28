@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanalasistanim.haritayaGit">
+
+    <ImageView
+        android:id="@+id/imgHarita"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp" />
+
+    <Button
+        android:id="@+id/btnHaritayiAc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="49dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="İstanbul'a Git"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/imgHarita"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="HaritayiAc" />
+
+
+</RelativeLayout>

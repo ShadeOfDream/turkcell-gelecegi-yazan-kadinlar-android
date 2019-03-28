@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanalasistanim.menuSayfasi">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="#e9b8b8"
+            android:text="HOŞGELDİN"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnFotografVideo"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/holo_green_light"
+            android:text="FOTOĞRAF VİDEO"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnSesKayit"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="SES KAYIT İŞLEMİ"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnHarita"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/holo_red_light"
+            android:text="HARİTAYA GİT"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnWeb"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="WEB SAYFASINA GİT "
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnSms"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#d8bebe"
+            android:text="SMS GÖNDER"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnArama"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="40dp"
+            android:background="#e02929"
+            android:text="ARAMA YAP"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+</TableLayout>

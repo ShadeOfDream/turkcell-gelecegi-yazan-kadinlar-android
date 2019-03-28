@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SANAL ASİSTANIM</string>
+    <string name="WebSayfasiSayfaIsmi">Web Sayfası</string>
+    <string name="HaritaSayfasiSayfaIsmi">Konum Bul</string>
+    <string name="AramaSayfasiSayfaIsmi">Arama Yap</string>
+    <string name="FotografVideoSayfasiSayfaIsmi">Fotoğraf ve Video</string>
+    <string name="SesSayfasiSayfaIsmi">Ses Kayıt</string>
+    <string name="SmsSayfasiSayfaIsmi">Sms Gönder</string>
+</resources>

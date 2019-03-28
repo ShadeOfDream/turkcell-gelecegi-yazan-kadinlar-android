@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5f9d3"
+    tools:context="com.example.sanalasistanim.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtKullaniciAdi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/transparent"
+        android:scaleType="matrix"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/txtKullaniciAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtParola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="Adınızı Giriniz"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtParola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtKullaniciAdi"
+        android:layout_alignStart="@+id/txtKullaniciAdi"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnGiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtParola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="GirisYap"
+        android:text="Giriş Yap"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
